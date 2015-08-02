@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1688642502">
+  <component name="DataSourceManagerImpl" format="xml" hash="1032485744">
     <data-source source="LOCAL" name="Rails UdemyCourseRecipeApp: development" uuid="5232e282-75f3-4646-95a8-f7bca3fd11c2">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
