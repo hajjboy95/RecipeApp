@@ -2,5 +2,6 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="Rails UdemyCourseRecipeApp: development" uuid="5232e282-75f3-4646-95a8-f7bca3fd11c2" />
+    <data-source name="Rails UdemyCourseRecipeApp: test" uuid="61550b20-ce47-446a-acef-d0371e16dee1" />
   </component>
 </project>
