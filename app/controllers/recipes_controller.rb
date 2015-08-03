@@ -2,7 +2,7 @@
 class RecipesController < ApplicationController
 
   def index
-    @recipes = Recipe.all
+    @recipes = Recipe.all.order(updated_at: :asc)
   end
 
   def show
