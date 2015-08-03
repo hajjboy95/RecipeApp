@@ -2,7 +2,7 @@
 class RecipesController < ApplicationController
 
   def index
-    @recipes = Recipe.all.order(updated_at: :asc)
+    @recipes = Recipe.all.order(updated_at: :desc)
   end
 
   def show
@@ -51,7 +51,7 @@ class RecipesController < ApplicationController
   private
 
     def recipe_params
-      params.require(:recipe).permit(:name, :summary, :description)
+      params.require(:recipe).permit(:name, :summary, :description,:picture)
 
     end
 
